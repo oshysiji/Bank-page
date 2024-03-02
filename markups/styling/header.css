@@ -1,0 +1,175 @@
+div{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Public Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+header{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left{
+    margin-left: 100px;
+}
+
+.header-middle{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-left: -50px;
+    flex: 1;
+}
+
+.about-head,
+.cont-head,
+.blog-head,
+.career-head{
+    margin-left: 50px;
+}
+
+.home-head{
+    opacity: 0.3;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.home-head .sub-home-head{
+    height: 5px;
+    width: 48px;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    bottom: -26px;   
+    opacity: 0;
+    pointer-events: none; 
+    transition: opacity 0.15s;
+}
+
+.home-head:hover,
+.home-head:hover .sub-home-head{
+    opacity: 1;    
+}
+
+.about-head{
+    opacity: 0.3;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.about-head .sub-about-head{
+    height: 5px;
+    width: 50px;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    bottom: -26px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.about-head:hover,
+.about-head:hover .sub-about-head{
+    opacity: 1;
+}
+
+.cont-head{
+    opacity: 0.3;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.cont-head .sub-cont-head{
+    height: 5px;
+    width: 60px;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    bottom: -26px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.cont-head:hover,
+.cont-head:hover .sub-cont-head{
+    opacity: 1;
+}
+
+.blog-head{
+    opacity: 0.3;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.blog-head .sub-blog-head{
+    height: 5px;
+    width: 38px;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    bottom: -26px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.blog-head:hover,
+.blog-head:hover .sub-blog-head{
+    opacity: 1;
+}
+
+.career-head {
+    opacity: 0.3;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.career-head .sub-career-head{
+    height: 5px;
+    width: 60px;
+    background-color: hsl(136, 65%, 51%);
+    position: absolute;
+    bottom: -26px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.career-head:hover,
+.career-head:hover .sub-career-head{
+    opacity:1;
+}
+
+.header-right{
+    margin-right: 100px;
+}
+
+.invite-button{
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.invite-button:hover{
+    opacity: 0.6;
+}
